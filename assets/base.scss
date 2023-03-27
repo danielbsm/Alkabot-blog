@@ -1,0 +1,30 @@
+.container {
+  max-width: 1185px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.theme--dark.v-application {
+  background: #181919;
+}
+
+.v-toolbar {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.v-application a {
+  color: #ffffff !important;
+  text-decoration: none;
+  transition: color 0.2s linear; /* vendorless fallback */
+  -o-transition: color 0.2s linear; /* opera */
+  -ms-transition: color 0.2s linear; /* IE 10 */
+  -moz-transition: color 0.2s linear; /* Firefox */
+  -webkit-transition: color 0.2s linear; /*safari and chrome */
+  &:hover {
+    color: var(--v-primary-base) !important;
+    i {
+      color: var(--v-primary-base) !important;
+    }
+  }
+}
