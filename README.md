@@ -18,7 +18,7 @@ $ yarn dev:dev
 
 ## Link para acesso ao projeto Online
 
-[Alkabot Blog](https://alkabot-blog-git-master-danielbsm.vercel.app/)
+[Alkabot Blog](https://alkabot-blog-iota.vercel.app/)
 
 # Funcionalidades
 
